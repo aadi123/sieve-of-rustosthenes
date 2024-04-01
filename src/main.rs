@@ -14,9 +14,12 @@ fn main() {
             }
         }
     }
+
+    // print primes
+    print!("Prime numbers up to {}: ", num);
     for index in 0..num-1 {
         if _primes[index] {
-            println!("{} is prime!", index + 2)
+            print!("{} ", index + 2);
         }
     }
 }
